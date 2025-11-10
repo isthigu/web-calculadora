@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <main>
+        <div class="visor">
+            <div class="visor_ultimo"></div>
+            <div class="visor_operador"></div>
+            <div class="visor_atual"></div>
+        </div>
+        <div class="botoes">
+            <button class="btn_des" data-func="c">C</button>
+            <button class="btn_des" data-value="apg">◄</button>
+            <button class="btn_des" data-value="%">%</button>
+            <button class="btn_des" data-value="/">/</button>
+            <button data-value="7">7</button>
+            <button data-value="8">8</button>
+            <button data-value="9">9</button>
+            <button class="btn_des" data-value="*">*</button>
+            <button data-value="4">4</button>
+            <button data-value="5">5</button>
+            <button data-value="6">6</button>
+            <button class="btn_des" data-value="-">-</button>
+            <button data-value="1">1</button>
+            <button data-value="2">2</button>
+            <button data-value="3">3</button>
+            <button class="btn_des" data-value="+">+</button>
+            <button>n</button>
+            <button data-value="0">0</button>
+            <button data-value=".">.</button>
+            <button class="btn_des" data-value="=">=</button>
+        </div>
+    </main>
+    <script src="./script.js"></script>
+    <style>
+        a{
+            all: unset;
+            color: #fff;
+            cursor: pointer;
+            padding: 0px 15px;
+            font-size: 18pt;
+        }
+        a:hover{
+            transition: all 0.2s ease-in-out;
+            /*font-size: 18px;*/
+            color: orange;
+        }
+    </style>
+    <footer style="position:absolute; display:flex; background-color:black; bottom:0px; padding:15px; max-width:90vw; width:100%; justify-content:space-evenly">
+        <span>Felipe Barros @iSthigu</span>
+        <span>
+            <span><a href="https://github.com/isthigu" class="fa fa-github" target="_blank"></a></span>
+            <span><a href="https://www.facebook.com/isthigu" class="fa fa-facebook" target="_blank"></a></span>
+            <span><a href="https://www.instagram.com/insthigu" class="fa fa-instagram" target="_blank"></a></span>
+        </span>
+    </footer>
+</body>
+</html>

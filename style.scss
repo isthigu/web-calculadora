@@ -1,0 +1,69 @@
+$bgPrincipal: #1B203E;
+$bgSec: #2D325C;
+$colorSec: #9DA2B4;
+$verm: #E45599;
+$az: #4658c9;
+*{
+    margin: 0;
+    padding: 0;
+    // background-color: rgba(50, 205, 50, 0.226) !important;
+}
+body{
+    background-color: $bgPrincipal;
+    color: #fff;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main{
+    background-color:$bgSec;
+    box-shadow: 0 0 20px 0 #00000025;
+    width: 300px;
+    height: auto;
+    padding: 20px;
+    border-radius: 7px;
+}
+.visor{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    text-align: right;
+    div{
+        width: 95%;
+    }
+    .visor_ultimo, .visor_operador{
+        color: $colorSec;
+    }
+}
+.botoes{
+    margin-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    // justify-content: right;
+    gap: 10px;
+    button{
+        all: unset;
+        height: 40px;
+        width:60px;
+        // padding:15px 22.5px;
+        text-align: center;
+        // border: 1px solid #fff;
+        border-radius: 7px;
+        cursor: pointer;
+        
+        &:hover{
+            background-color:#ffffff22 ;
+        }
+
+    }
+    .btn_des{
+        color: orange;
+    }
+}
